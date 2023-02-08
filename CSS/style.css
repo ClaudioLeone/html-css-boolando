@@ -26,12 +26,21 @@ header{
 /* UTILITIES */
 .flex{
     display: flex;
+    flex-wrap: wrap;
 }
 
+.justify-btw{
+    justify-content: space-between;
+}
+
+.justify-cntr{
+    justify-content: center;
+}
 
 /* CLASSES */
 .container{
     width: 80%;
+    margin: auto;
 }
 
 .anchor{
@@ -44,4 +53,64 @@ header{
     width: 100px;
     height: 23px;
     justify-content: center;
+}
+
+.col{
+    width: calc(100% / 3 - 5px);
+}
+
+.row{
+    width: 100%;
+}
+
+.discount-price{
+    color: red;
+    display: inline-block;
+    font-size: 0.7rem;
+    position: relative;
+    bottom: 5px;
+}
+  
+.full-price{
+    color: black;
+    text-decoration: line-through;
+    display: inline-block;
+    font-size: 0.7rem;
+    position: relative;
+    bottom: 5px;
+}
+  
+.griffe{
+    color: black;
+    font-size: 0.65rem;
+}
+  
+.discount-percent{
+    padding: 3px 5px;
+    display: inline-block;
+    font-size: 0.65rem;
+    color: white;
+    background-color: red;
+}
+  
+.sustainability{
+    padding: 3px 5px;
+    display: inline-block;
+    font-size: 0.65rem;
+    color: white;
+    background-color: green;
+}
+
+.heart{
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    top: 40px;
+    left: 320px;
+}
+
+.labels {
+    position: relative;
+    bottom: 130px;
 }
