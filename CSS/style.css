@@ -3,3 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* GENERAL */
+
+img{
+    width: 100%;
+}
+
+header{
+    background-color: orangered;
+    justify-content: center;
+}
+
+/* IDs */
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+/* UTILITIES */
+.flex{
+    display: flex;
+}
+
+
+/* CLASSES */
+.container{
+    width: 80%;
+}
+
+.anchor{
+    text-decoration: none;
+    color: white;
+    font-size: 0.6rem;
+}
+
+.logo-div{
+    width: 100px;
+    height: 23px;
+    justify-content: center;
+}
