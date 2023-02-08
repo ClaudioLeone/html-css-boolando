@@ -6,6 +6,10 @@
 
 /* GENERAL */
 
+body{
+    font-family: sans-serif;
+}
+
 img{
     width: 100%;
 }
@@ -13,6 +17,15 @@ img{
 header{
     background-color: orangered;
     justify-content: center;
+}
+
+footer{
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 /* IDs */
@@ -113,4 +126,18 @@ header{
 .labels {
     position: relative;
     bottom: 130px;
+}
+
+.left-sect{
+    color: white;
+    padding: 15px 0;
+}
+
+.right-sect{
+    color: white;
+    padding: 15px 0;
+}
+
+.footer-anch{
+    font-size: 0.7rem;
 }
